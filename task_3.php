@@ -7,11 +7,11 @@ function fibonacci(int $n) {
     echo $n1;
     echo "<br>";
     echo $n2;
-    
+    $count = 2;
     for($i = 3; $i <= $n; $i++) { 
         $n3 = $n1 + $n2;
 
-        if ($n3 > 100) {
+        if ($n3 > 100 || $count >= 10) {
             break;
         }
 
@@ -19,6 +19,7 @@ function fibonacci(int $n) {
         echo $n3;
         $n1 = $n2;
         $n2 = $n3;
+        $count++;
     }
 }
-fibonacci(10);
+fibonacci(100);
