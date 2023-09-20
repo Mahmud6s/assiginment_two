@@ -1,5 +1,6 @@
 <?php
 
+echo "Fibonacci is break when is greater then 100 :"."<br>";
 function fibonacci(int $n) {
     $n1 = 0;
     $n2 = 1;

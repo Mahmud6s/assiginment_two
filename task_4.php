@@ -1,5 +1,6 @@
 <?php
 
+echo "Fibonacci Series :"."<br>";
 function fibonacci(int $n) {
     $n1 = 0;
     $n2 = 1;
