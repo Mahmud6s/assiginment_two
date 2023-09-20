@@ -1,6 +1,6 @@
 <?php
 
-echo "Fibonacci is break when is greater then 100 :"."<br>";
+echo " First 10 Fibonacci series And break when is greater then 100 :"."<br>";
 function fibonacci(int $n) {
     $n1 = 0;
     $n2 = 1;
@@ -21,4 +21,4 @@ function fibonacci(int $n) {
         $n2 = $n3;
     }
 }
-fibonacci(15);
+fibonacci(10);
